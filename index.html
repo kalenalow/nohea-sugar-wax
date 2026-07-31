@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nohea Sugar Wax Smooth Hairless Skin</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#B75B4E',
+                        secondary: '#F9EFEB',
+                        bglight: '#FAF2F0',
+                        textdark: '#3A1F1D',
+                        accent: '#8C3B30',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #FAF2F0; color: #3A1F1D; }
+        
+        /* Iframe responsiveness */
+        .iframe-container iframe {
+            width: 100% !important;
+            height: 850px !important; 
+            border: none;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        @media (max-width: 640px) {
+            .iframe-container iframe {
+                height: 950px !important; /* Taller on mobile to prevent scrolling inside the form */
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Logo Top Bar -->
+    <nav class="w-full bg-bglight py-6 px-4 shadow-sm relative z-10 flex justify-center items-center">
+        <div class="relative w-64 md:w-80 h-auto flex justify-center items-center">
+            <img src="NOHEA Sugar Wax_3.png" alt="Nohea Sugar Wax Logo" class="w-full h-auto mix-blend-multiply object-contain">
+        </div>
+    </nav>
+
+    <!-- 1. Big Headline & How it works -->
+    <header class="bg-secondary text-center px-4 pt-16 pb-24 border-b-[6px] border-primary">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+            <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-6 leading-tight tracking-tight">
+                Nohea is a local made sugar wax kit that helps achieve <span class="text-primary italic">smooth hairless skin!</span>
+            </h1>
+            <p class="text-xl md:text-2xl font-medium text-textdark max-w-2xl opacity-90">
+                An all natural, quick way to remove hair safely at home.
+            </p>
+            <a href="#signup-form" class="mt-10 bg-primary hover:bg-accent text-white font-semibold py-4 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg text-lg">
+                Start Your Glow Up
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. The Problem -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-10">The struggle is real.</h2>
+            
+            <div class="relative max-w-2xl mx-auto">
+                <span class="absolute top-0 left-0 text-6xl text-secondary font-serif leading-none -ml-4 -mt-4">"</span>
+                <p class="italic text-xl md:text-2xl text-gray-700 border-l-4 border-primary pl-6 py-2 text-left relative z-10">
+                    It's annoying to shave every day. My hair grows back thick and fast so I had to do it often.
+                </p>
+            </div>
+            
+            <p class="mt-10 text-lg md:text-xl font-medium text-red-600/80 bg-red-50 p-6 rounded-xl inline-block max-w-2xl">
+                Right now, you're wasting time every single morning in the shower just to feel stubble by dinner time.
+            </p>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Ingredients & Hawaii Origin -->
+    <section class="py-20 px-6 bg-[#f4e8e4] relative overflow-hidden">
+        <!-- Decorative Background Elements -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-secondary rounded-full mix-blend-multiply opacity-50 translate-x-1/3 -translate-y-1/3 blur-2xl"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-white rounded-full mix-blend-overlay opacity-40 -translate-x-1/4 translate-y-1/4 blur-2xl"></div>
+
+        <div class="max-w-5xl mx-auto relative z-10 text-center">
+            <!-- Text Content -->
+            <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Handcrafted in Hawaii</span>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-textdark mb-6">Simple, Premium Ingredients.</h2>
+            <p class="text-lg text-textdark/80 mb-12 leading-relaxed max-w-3xl mx-auto">
+                We believe that what goes on your skin should be as pure as the islands themselves. Nohea Sugar Wax is crafted in small batches right here in Hawaii, using only three simple, premium ingredients. No harsh chemicals just natural goodness.
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <!-- Ingredient 1 -->
+                <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-white/40 text-center transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center text-4xl shadow-inner">🌿</div>
+                    <h4 class="font-bold text-accent text-xl mb-3 font-serif">Organic Sugar</h4>
+                    <p class="text-base text-textdark/80">The gentle base that grips hair, not skin.</p>
+                </div>
+                <!-- Ingredient 2 -->
+                <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-white/40 text-center transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center text-4xl shadow-inner">🍋</div>
+                    <h4 class="font-bold text-accent text-xl mb-3 font-serif">Organic Lemons</h4>
+                    <p class="text-base text-textdark/80">A natural preservative packed with Vitamin C.</p>
+                </div>
+                <!-- Ingredient 3 -->
+                <div class="bg-white/60 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-white/40 text-center transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                    <div class="w-20 h-20 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center text-4xl shadow-inner">💧</div>
+                    <h4 class="font-bold text-accent text-xl mb-3 font-serif">Purified Water</h4>
+                    <p class="text-base text-textdark/80">Brings everything together for the perfect consistency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. What they get, cost, and how it works -->
+    <section class="py-24 px-6 bg-bglight">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">How to get smooth skin today</h2>
+                <p class="text-lg max-w-3xl mx-auto text-textdark/80">
+                    For <strong class="text-accent text-xl">$15</strong>, Nohea Sugar Wax gives you an affordable, all natural method for hair removal. Every jar has a QR code linking to a short video showing exactly how to prep, apply, and pull for an instant glow up! Here is exactly how it works:
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-12 items-center mb-16">
+                <!-- Image Side -->
+                <div class="flex-1 w-full max-w-md mx-auto relative group">
+                    <div class="absolute inset-0 bg-primary/20 rounded-2xl transform rotate-3 transition-transform group-hover:rotate-6"></div>
+                    <img src="IMG_5507.jpg" alt="Nohea Sugar Wax Kit" class="relative z-10 w-full h-auto rounded-2xl shadow-xl object-cover aspect-square border-4 border-white">
+                </div>
+
+                <!-- Steps Side -->
+                <div class="flex-1 flex flex-col gap-6 w-full">
+                    <div class="bg-white p-6 rounded-xl shadow-md border-l-[6px] border-secondary hover:border-primary transition-colors duration-300">
+                        <h4 class="font-bold text-lg text-primary mb-2 flex items-center gap-2">
+                            <span class="bg-secondary text-primary rounded-full w-8 h-8 flex items-center justify-center font-serif">1</span>
+                            Prep your skin & space.
+                        </h4>
+                        <p class="text-textdark/80 leading-relaxed">Set up in a cool climate, air conditioning is best, to keep the wax at the perfect consistency. For your skin, ensure hair is at least 1/4 inch long, gently exfoliate 24 to 48 hours beforehand, and keep it completely clean and free of lotions or oils.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-md border-l-[6px] border-secondary hover:border-primary transition-colors duration-300">
+                        <h4 class="font-bold text-lg text-primary mb-2 flex items-center gap-2">
+                            <span class="bg-secondary text-primary rounded-full w-8 h-8 flex items-center justify-center font-serif">2</span>
+                            Apply the wax.
+                        </h4>
+                        <p class="text-textdark/80 leading-relaxed">Watch the short video to see the right way to spread the sugar wax. You want to be sure it's applied evenly and spreads in every direction to ensure an easy pick up. <strong>Made a mistake?</strong> No problem! The product is completely water soluble, so you can easily rinse off misplaced wax with warm water without pulling any hair.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-md border-l-[6px] border-secondary hover:border-primary transition-colors duration-300">
+                        <h4 class="font-bold text-lg text-primary mb-2 flex items-center gap-2">
+                            <span class="bg-secondary text-primary rounded-full w-8 h-8 flex items-center justify-center font-serif">3</span>
+                            Pull.
+                        </h4>
+                        <p class="text-textdark/80 leading-relaxed">Follow the simple flicking motion shown in the video to cleanly lift the wax away. This removes hair gently from the root, leaving your skin soft and stubble free for weeks.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-md border-l-[6px] border-secondary hover:border-primary transition-colors duration-300">
+                        <h4 class="font-bold text-lg text-primary mb-2 flex items-center gap-2">
+                            <span class="bg-secondary text-primary rounded-full w-8 h-8 flex items-center justify-center font-serif">4</span>
+                            Store for later.
+                        </h4>
+                        <p class="text-textdark/80 leading-relaxed">Once you are finished, seal the jar tightly and store your Nohea Sugar Wax in a cool, dry place so it remains perfectly fresh for your next session.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Price Card -->
+            <div class="bg-primary bg-gradient-to-br from-primary to-accent text-white p-10 text-center rounded-2xl max-w-2xl mx-auto shadow-2xl transform hover:scale-[1.02] transition-transform">
+                <h3 class="font-serif text-5xl font-bold mb-4">$15</h3>
+                <p class="text-xl font-medium opacity-90">Support local and Start Your NOHEA Glow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Proof -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-primary mb-8">Why switch to sugar?</h2>
+            <div class="space-y-6 text-lg text-textdark/80 text-left md:text-center">
+                <p>Sugar waxing is <strong class="text-textdark font-semibold">so much more effective!</strong> It pulls hair from the root, meaning it takes weeks to grow back, not days.</p>
+                <p>It is quick, and way easier than having to deal with manually plucking hairs one by one, or worrying about hot wax. Plus, it only sticks to the hair, not your skin, making it safer, less painful, and cleaner.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Objections answered straight -->
+    <section class="py-20 px-6 bg-bglight">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-center text-primary mb-12">You might be thinking...</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-secondary">
+                    <h3 class="font-serif font-bold text-xl text-accent mb-4">"I don't want to spend money if it doesn't work for me."</h3>
+                    <p class="text-textdark/80">I hear you. That's why I'm making this completely risk free.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-secondary">
+                    <h3 class="font-serif font-bold text-xl text-accent mb-4">"I've never waxed before, I'll probably make a huge mess."</h3>
+                    <p class="text-textdark/80">That is exactly why I put the QR code on every single jar. You don't have to guess. Point your phone camera at it, and watch me do it right in a 30 second video before you start.</p>
+                </div>
+            </div>
+            
+            <!-- Guarantee Box -->
+            <div class="mt-12 border-2 border-dashed border-accent bg-[#fff9f2] p-8 md:p-10 rounded-2xl text-center max-w-3xl mx-auto relative">
+                <div class="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-[#fff9f2] px-4">
+                    <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-accent mb-4">My Promise to You</h3>
+                <p class="text-lg text-textdark/90 leading-relaxed">
+                    If you run into any issues, feel free to reach out at <a href="mailto:NoheaSugarWax@gmail.com" class="text-primary font-semibold hover:underline">NoheaSugarWax@gmail.com</a>, I will reply in less than 48 hours. If you run into issues that I cannot solve, I will give you a full refund.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Sign-up section & Form -->
+    <section class="py-24 px-6 bg-secondary relative overflow-hidden" id="signup-form">
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <h2 class="font-serif text-3xl md:text-5xl font-bold text-textdark mb-6">Ready to stop shaving every day?</h2>
+            <p class="text-xl text-textdark/80 mb-2">Get in touch to grab your kit today.</p>
+            <p class="text-base text-textdark/60 mb-12 max-w-2xl mx-auto">Fill out the form below. I will review your request and reply in less than 48 hours.</p>
+            
+            <!-- Form Wrapper -->
+            <div class="iframe-container w-full max-w-3xl mx-auto bg-white p-2 md:p-4 rounded-xl shadow-2xl">
+                <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSf2DSS3X9Xzpl7A5u6-PKC4dLqtisBgHvGjSf5nw81CWQBatw/viewform?embedded=true" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    title="Nohea Sugar Wax Order Form">
+                    Loading…
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-bglight py-8 text-center border-t border-secondary">
+        <p class="text-textdark/50 text-sm">&copy; 2026 Nohea Sugar Wax. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Nohea Landing Page enhanced and loaded successfully.");
+            
+            // Optional: Add a simple intersection observer to fade in elements on scroll
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-4');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Apply fade-in animation to major sections
+            document.querySelectorAll('section > div').forEach(el => {
+                el.classList.add('transition-all', 'duration-700', 'ease-out', 'opacity-0', 'translate-y-4');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
